@@ -3,23 +3,26 @@
 body{
 	font-size: 62.5%;
 	font-family: helvetica, arial, sans-serif;
-	color:#545257; /*changes color of the whole text*/
+	color:#ffffff; /*changes color of the whole text*/
 	margin-top: 0;
+	background-color: rgb(135,206,250);
 }
 #wrapper{
 	width:960px;
 	margin: 0 auto;
 	padding-left: 1%;
 	padding-right: 1%;
+	/*border: outset;*/
 	-webkit-box-shadow: 0px 0px 5px #ececec;
-	-moz-box-shadow:    0px 0px 5px #ececec;
-	box-shadow:         0px 0px 5px #ececec;
+	-moz-box-shadow:    0px 0px 5px #000000;
+	box-shadow:         3px 3px 5px #84AFC9;
+	background-color: rgb(25, 167, 255);
 
 }
 /*-------------------------------------------  header -------------------------------------------------------*/
 
 header{
-	border-bottom: 1px solid #bbb8bf; /*changes color of border under project name*/
+	border-bottom: 1px solid #FF9400; /*changes color of border under project name*/
 }
 h1{
 	margin-top: 0;
@@ -30,34 +33,38 @@ h2{
 }
 /*-------------------------------------------  table -------------------------------------------------------*/
 table{
-	background: #f7f7f9;  /*changes color of the background of the table*/
+	background: #ffffff;  /*changes color of the background of the table #f7f7f9*/
 	border-collapse: collapse;
 	width: 100%;
+	border: 2px solid #FF9400;
 }
 tr{
 	display: table-row;
 	border-color: inherit;
 }
+tr:hover{
+	background-color: rgba(0, 255, 255, .2);
+}
 .odd{
-	background: #ececec; /*changes color of the stripes table*/
+	background: rgba(255, 148, 0, .4); /*changes color of the stripes table #ececec*/
 }
 th{
 	text-align: left;
 	padding: 1em 1em .5em;
 	font-weight: bold;
 	font-size: 120%;
-	color: #545257;  /*changes color of table hd text*/
-	background: #bbbcc0; /*changes color of table hd background*/
+	color: #ffffff;  /*changes color of table hd text #545257*/
+	background: #FF9400; /*changes color of table hd background #bbbcc0*/
 }
 th:first-child{
-	/*border-right: 1px solid #6a7680;*/
+	border-right: 1px solid #6a7680;
 }
 td{
 	padding: 1em 1em;
 	width: 69%;
 }
 td:first-child{
-	/*border-right: 1px solid #6a7680;*/
+	border-right: 1px solid #6a7680;
 }
 /*-------------------------------------------  top section-------------------------------------------------------*/
 .main{
@@ -79,6 +86,7 @@ td:first-child{
 }
 figure img{
 	width: 100%;
+	border: inset;
 }
 .sec{
 	clear: both;
