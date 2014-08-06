@@ -37,6 +37,7 @@ table{
 	border-collapse: collapse;
 	width: 100%;
 	border: 2px solid #FF9400;
+	box-shadow: 3px 3px 3px #1E90FF;
 }
 tr{
 	display: table-row;
