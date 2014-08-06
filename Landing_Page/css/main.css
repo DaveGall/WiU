@@ -5,7 +5,9 @@ body{
 	font-family: helvetica, arial, sans-serif;
 	color:#ffffff; /*changes color of the whole text*/
 	margin-top: 0;
-	background-color: rgb(135,206,250);
+	background-image: url("../img/bgsurfer.jpg");/*Photo credit #2 https://www.flickr.com/photos/tk_five_0/*/
+	background-repeat: repeat;
+	/*background-color: rgb(135,206,250);*/
 }
 #wrapper{
 	width:960px;
@@ -13,9 +15,9 @@ body{
 	padding-left: 1%;
 	padding-right: 1%;
 	/*border: outset;*/
-	-webkit-box-shadow: 3px 3px 5px #84AFC9;
+	/*-webkit-box-shadow: 3px 3px 5px #84AFC9;
 	-moz-box-shadow:    3px 3px 5px #84AFC9;
-	box-shadow:         3px 3px 5px #84AFC9;
+	box-shadow:         3px 3px 5px #84AFC9;*/
 	background-color: rgb(25, 167, 255);
 
 }
@@ -118,6 +120,9 @@ footer{
 	padding-bottom: 20px;
 	text-align: center;
 	width: 90%;
+}
+footer a{
+	color: #ffffff;
 }
 /* ------------------------------------------- Media Queries -------------------------------------------------------*/
 
