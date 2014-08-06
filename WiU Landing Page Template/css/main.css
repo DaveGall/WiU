@@ -13,8 +13,8 @@ body{
 	padding-left: 1%;
 	padding-right: 1%;
 	/*border: outset;*/
-	-webkit-box-shadow: 0px 0px 5px #ececec;
-	-moz-box-shadow:    0px 0px 5px #000000;
+	-webkit-box-shadow: 3px 3px 5px #84AFC9;
+	-moz-box-shadow:    3px 3px 5px #84AFC9;
 	box-shadow:         3px 3px 5px #84AFC9;
 	background-color: rgb(25, 167, 255);
 
@@ -57,14 +57,14 @@ th{
 	background: #FF9400; /*changes color of table hd background #bbbcc0*/
 }
 th:first-child{
-	border-right: 1px solid #6a7680;
+	border-right: 1px solid #000000;
 }
 td{
 	padding: 1em 1em;
 	width: 69%;
 }
 td:first-child{
-	border-right: 1px solid #6a7680;
+	border-right: 1px solid #000000;
 }
 /*-------------------------------------------  top section-------------------------------------------------------*/
 .main{
@@ -76,6 +76,7 @@ td:first-child{
 	width: 67.5%;
 	float: left;
 	font-size: 1.4em;
+	text-indent: 1em;
 
 }
 .main figure{
@@ -86,7 +87,13 @@ td:first-child{
 }
 figure img{
 	width: 100%;
-	border: inset;
+	border: inset #FF9400;
+}
+figure img:hover{
+	border: dashed;
+}
+figcaption a{
+	color: #ffffff;
 }
 .sec{
 	clear: both;
